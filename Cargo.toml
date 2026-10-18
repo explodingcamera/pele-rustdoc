@@ -1,0 +1,13 @@
+[package]
+name = "pele-rustdoc"
+version = "0.0.1"
+edition = "2024"
+description = "Render Mermaid diagrams in rustdoc with Pele"
+repository = "https://github.com/explodingcamera/pele-rustdoc/"
+license = "MIT"
+keywords = ["diagrams", "mermaid", "pele", "rustdoc"]
+categories = ["development-tools", "visualization"]
+
+[features]
+# use the vendored pele source instead of loading it from jsdelivr
+vendor = []

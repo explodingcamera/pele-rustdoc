@@ -1,0 +1,18 @@
+sequenceDiagram
+    autonumber
+    participant Author as Crate author
+    participant Rustdoc as rustdoc
+    participant Browser as Browser
+    participant Pele as Pele
+    Author->>Rustdoc: document with pele!
+    Rustdoc-->>Browser: Mermaid source and script
+    alt Pele available
+        Browser->>Pele: mount(diagram, source)
+        Pele-->>Browser: responsive SVG
+        loop On container resize
+            Pele-->>Browser: updated layout
+        end
+    else JavaScript unavailable
+        Browser-->>Browser: display Mermaid source
+    end
+    Note over Browser,Pele: Colors follow rustdoc's theme
