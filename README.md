@@ -1,6 +1,7 @@
 # pele-rustdoc
 
-[Documentation / Examples](https://docs.rs/pele-rustdoc)
+[![Crates.io](https://img.shields.io/crates/v/pele-rustdoc.svg)](https://crates.io/crates/pele-rustdoc)
+[![docs.rs](https://docs.rs/pele-rustdoc/badge.svg)](https://docs.rs/pele-rustdoc)
 
 Render Mermaid diagrams in rustdoc with [Pele](https://pele.run/).
 
