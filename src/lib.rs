@@ -131,7 +131,7 @@ macro_rules! pele {
 #[macro_export]
 macro_rules! __pele_script {
     () => {
-        "<script src=\"https://cdn.jsdelivr.net/npm/pele@1.6.0/dist/pele.global.js\" integrity=\"sha384-4lHoXtKDt+x/E+htiTc83bpFWyREQzJCMudNQHirqKiCTW7Mx790I/5Q7criNZ1G\" crossorigin=\"anonymous\"></script>\n"
+        "<script src=\"https://cdn.jsdelivr.net/npm/pele@1.13.0/dist/pele.global.js\" integrity=\"sha384-vDPV1LDXGIwjU5/gMUtHbn/WAmwRmOgkQpiq+Rm4d/BPTsdfpIUpvi2xVET6z85W\" crossorigin=\"anonymous\"></script>\n"
     };
 }
 
