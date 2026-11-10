@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.1.2] - 2026-11-10
+
+- Fixed vendored diagrams failing when `pele!` is called from another crate or directory.
+
 ## [v0.1.1] - 2026-10-31
 
 - Updated Pele to 1.13.0

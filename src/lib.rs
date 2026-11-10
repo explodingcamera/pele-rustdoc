@@ -136,14 +136,4 @@ macro_rules! __pele_script {
 }
 
 #[cfg(feature = "vendor")]
-#[doc(hidden)]
-#[macro_export]
-macro_rules! __pele_script {
-    () => {
-        concat!(
-            "<script src=\"data:text/javascript,",
-            include_str!("../vendor/pele.global.url"),
-            "\"></script>\n"
-        )
-    };
-}
+mod vendor;

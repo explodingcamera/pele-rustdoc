@@ -1,5 +1,9 @@
 use pele_rustdoc::pele;
 
+#[cfg(feature = "vendor")]
+#[path = "consumer/diagram.rs"]
+mod consumer;
+
 const INLINE: &str = pele!("flowchart LR\n A --> B");
 const FILE: &str = pele!(include_str!("../src/architecture.mmd"));
 const FRAMED: &str = pele!("flowchart LR\n A --> B", framed);
